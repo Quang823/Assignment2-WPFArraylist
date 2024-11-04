@@ -1,0 +1,75 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "WpfArrayList/1.0.0": {
+        "dependencies": {
+          "WpfArraylist_Service": "1.0.0"
+        },
+        "runtime": {
+          "WpfArrayList.dll": {}
+        }
+      },
+      "WpfArraylist_BusinessObject/1.0.0": {
+        "runtime": {
+          "WpfArraylist_BusinessObject.dll": {}
+        }
+      },
+      "WpfArraylist_DAO/1.0.0": {
+        "dependencies": {
+          "WpfArraylist_BusinessObject": "1.0.0"
+        },
+        "runtime": {
+          "WpfArraylist_DAO.dll": {}
+        }
+      },
+      "WpfArraylist_Repo/1.0.0": {
+        "dependencies": {
+          "WpfArraylist_DAO": "1.0.0"
+        },
+        "runtime": {
+          "WpfArraylist_Repo.dll": {}
+        }
+      },
+      "WpfArraylist_Service/1.0.0": {
+        "dependencies": {
+          "WpfArraylist_Repo": "1.0.0"
+        },
+        "runtime": {
+          "WpfArraylist_Service.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WpfArrayList/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WpfArraylist_BusinessObject/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WpfArraylist_DAO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WpfArraylist_Repo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WpfArraylist_Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
